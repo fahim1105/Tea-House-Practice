@@ -6,6 +6,9 @@
     <title>Tea House</title>
     <!-- Favicon Link -->
      <link rel="shortcut icon" href="Favicon/tea.png" type="image/x-icon">
+
+     <!-- CSS Link -->
+      <link rel="stylesheet" href="Style/style.css">
     
      <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -14,9 +17,9 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
-<body class=" max-w-[1240px] mx-auto">
+<body">
     <!-- banner section -->
-    <div class="div_parent flex flex-col justify-between md:flex-row " >
+    <div class="div_parent flex flex-col justify-between md:flex-row mt-[100px] max-w-[1240px] mx-auto" >
         <div class="div_left">
             <h1 class="text-[30px] md:text-[80px] font-bold text-center md:text-left ml-15 md:ml-0">It's good <span class="hidden md:inline"><br></span> tea time at The<span class="hidden md:inline"><br></span> Tea House</h1>
             <p class="text-[15px] md:text-[18px] text-[#777777] my-10 text-center md:text-left ml-15 md:ml-0">Tea and Botanical Solutions Supplier Give Optimum<br> Satisfaction To Your Taste Buds.</p>
@@ -38,8 +41,8 @@
     </div>
 
     <!-- Featured Section -->
-     <section>
-        <h1 class="text-[30px] md:text-[45px] font-[400] text-center mt-[140px] ml-16">Our Featured Products</h1>
+     <section class=" max-w-[1240px] mx-auto">
+        <h1 class="text-[30px] md:text-[45px] font-[400] text-center mt-[210px] ml-16">Our Featured Products</h1>
         <p class="text-[12px] md:text-[16px] text-[#777777] font-[500] text-center mt-5 ml-16 md:ml-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
         <div class="featured_parent text-center mt-[50px] grid grid-cols-1 md:grid-cols-4">
 
@@ -68,7 +71,7 @@
      </section>
 
      <!-- Great Tea Section -->
-
+     <section class="max-w-[1240px] mx-auto">
      <div class="parent_div flex flex-col md:flex-row mt-[50px] md:mt-[130px] md:ml-[35px] ml-[35px] gap-[30px] p-5 " >
 
         <div class="left_div grid grid-cols-2 grid-rows-3 gap-[30px] md:w-1/2 ">
@@ -96,10 +99,10 @@
             <p class="font-[500] text-[12] md:text-[16] text-[#777777] mt-[10px]">Premium Quality that makes tea more elegant and more durable when you use it.</p>
         </div>
      </div>
-
+     </section>
      <!-- Meet Our Super Clients Section -->
-
-     <div class="parent_div flex flex-col md:flex-row mt-[80px] md:mt-[130px] md:h-[650px] px-[40px] md:px-[70px] py-5 bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white gap-5 rounded-xl ml-15">
+     <section class="max-w-[1240px] mx-auto" >
+     <div class="parent_div flex flex-col md:flex-row mt-[80px] md:mt-[130px] md:h-[650px] px-[40px] md:px-[70px] py-5 bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white gap-5 rounded-xl ml-15 ">
         <!-- Left Section -->
         <div class="left_div flex justify-center items-center h-full md:w-1/2">
             <div>
@@ -148,26 +151,120 @@
         </div>
 
      </div>
-    
+    </section>
      <!-- News & Events Section -->
-
-     <div class="Upper_div mt-[130px] text-center">
+    <section class="max-w-[1240px] mx-auto">
+        <div class="Upper_div mt-[130px] text-center ml-[50px] md:ml-[0] ">
         <h1 class="text-[45px] font-extrabold">News & Events</h1>
-        <p class=" text-[16px] font-[400] text-[#777777] mt-[37px] px-[120px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-     </div>
-
-     <div class="card_div">
-        <div>
-
+        <p class=" text-[16px] font-[400] text-[#777777] mt-[37px] md:px-[120px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
 
-        <div>
+        <section class="flex flex-col md:flex-row justify-center items-center gap-[24px] mt-[50px] md:ml-[0] ml-[60px] md:mb-[130px] mb-[60px]">
+        <!-- Card-01 -->
+        <div class="card_div">
+            <div class="w-[314px] h-[320px] md:h-[448px] md:w-[364px] border-2 border-[#777777] rounded-lg flex justify-center items-center" >
+                <div>
+                    <img class="w-[250px] h-[140px] md:w-[320px] md:h-[190px]" src="images/news-1.png" alt="">
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mt-[10px] md:mt-[20px]">Feb 05, 2027</p>
+                    <h3 class="text-[16px] md:text-[20px] font-extrabold my-[5px] md:my-[10px]">Collecting 8 points for discount</h3>
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mb-[5px] md:mb-[10px]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <h4 class="text-[12px] md:text-[16px] font-bold">Learn More</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Card-02 -->
+        <div class="card_div">
+            <div class="w-[314px] h-[320px] md:h-[448px] md:w-[364px] border-2 border-[#777777] rounded-lg flex justify-center items-center" >
+                <div>
+                    <img class="w-[250px] h-[140px] md:w-[320px] md:h-[190px]" src="images/news-2.png" alt="">
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mt-[10px] md:mt-[20px]">Feb 05, 2027</p>
+                    <h3 class="text-[16px] md:text-[20px] font-extrabold my-[5px] md:my-[10px]">Collecting 8 points for discount</h3>
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mb-[5px] md:mb-[10px]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <h4 class="text-[12px] md:text-[16px] font-bold">Learn More</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Card-03 -->
+        <div class="card_div">
+            <div class="w-[314px] h-[320px] md:h-[448px] md:w-[364px] border-2 border-[#777777] rounded-lg flex justify-center items-center" >
+                <div>
+                    <img class="w-[250px] h-[140px] md:w-[320px] md:h-[190px]" src="images/news-3.png" alt="">
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mt-[10px] md:mt-[20px]">Feb 05, 2027</p>
+                    <h3 class="text-[16px] md:text-[20px] font-extrabold my-[5px] md:my-[10px]">Collecting 8 points for discount</h3>
+                    <p class="text-[12px] md:text-[16px] font-[500] text-[#777777] mb-[5px] md:mb-[10px]">There are many variations of passages of <br> Lorem Ipsum available.</p>
+                    <h4 class="text-[12px] md:text-[16px] font-bold">Learn More</h4>
+                </div>
+            </div>
+        </div>
+        </section>
+     </section>
+     <!-- Footer Section -->
+   <footer class="min-h-[500px] bg-[#eedbdb]">
+    <div class="max-w-screen-xl mx-auto px-4 md:px-[260px]">
+        
+        <!-- 1st part -->
+        <div class="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <img class="mt-[40px] md:mt-[130px] w-[120px] md:w-auto" src="images/cup.png" alt="">
             
+            <div class="flex flex-col md:flex-row items-center gap-[20px] md:gap-[40px] mt-[30px] md:mt-[130px] w-full md:w-auto">
+                <p class="text-[#494949] text-[18px] md:text-[20px] font-[500]">Ready to get started?</p>
+                <button class="w-full md:w-[200px] h-[50px] md:h-[64px] text-[18px] md:text-[20px] text-white bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg">
+                    Get Started
+                </button>
+            </div>
         </div>
 
-        <div>
+        <!-- 2nd Part -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-[40px] mt-[60px] md:mt-[100px] text-center md:text-left">
+            <div>
+                <h2 class="text-[20px] font-semibold mb-[22px]">Quick Links</h2>
+                <p class="text-[#494949] text-[16px] mb-[12px]">Home</p>
+                <p class="text-[#494949] text-[16px] mb-[12px]">About Us</p>
+                <p class="text-[#494949] text-[16px] mb-[12px]">Insurance</p>
+                <p class="text-[#494949] text-[16px]">Privacy Policy</p>
+            </div>
+
+            <div>
+                <h2 class="text-[20px] font-semibold mb-[22px]">Our Service</h2>
+                <p class="text-[#494949] text-[16px] mb-[12px]">Life Insurance</p>
+                <p class="text-[#494949] text-[16px] mb-[12px]">Car Insurance</p>
+                <p class="text-[#494949] text-[16px] mb-[12px]">Health Insurance</p>
+                <p class="text-[#494949] text-[16px]">House Insurance</p>
+            </div>
+
+            <div>
+                <h2 class="text-[20px] font-semibold mb-[22px]">Help</h2>
+                <p class="text-[#494949] text-[16px] mb-[12px]">FAQs</p>
+                <p class="text-[#494949] text-[16px]">Contact Us</p>
+            </div>
             
+            <div>
+                <h1 class="text-[20px] md:text-[24px] font-semibold mb-[25px] md:mb-[40px]">
+                    Subscribe to our <br class="hidden md:block"> newsletter
+                </h1>
+                
+                <div class="flex justify-center md:justify-start items-center gap-3 mb-[30px] w-full">
+                    <input class="border-b border-black outline-none pb-[10px] md:pb-[23px] w-[70%] md:w-auto" placeholder="Email address" type="email">
+                    <button class="h-[32px] w-[32px] rounded-full bg-gradient-to-r from-[#ff8938] to-[#ff0000] flex items-center justify-center text-white"> 
+                        <i class="fa-solid fa-arrow-right text-[14px]"></i> 
+                    </button>
+                </div>
+
+                <div class="flex justify-center md:justify-start gap-[20px] text-[18px]">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>                
+                </div>
+            </div>
         </div>
-     </div>
+
+        <!-- 3rd Part -->
+        <div>
+            <p class="text-[14px] md:text-[16px] text-center mt-[60px] md:mt-[100px] pb-[50px] md:pb-[100px]">
+                © 2027 UIDesign.to - All rights reserved.
+            </p>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>
